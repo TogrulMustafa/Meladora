@@ -959,7 +959,7 @@ a {
     padding: 3rem;
 }
 .contact-content {
-    background: #dfe1e9;
+    background: #f5f5f5;
     width: 100%;
     height: 100%;
     position: relative;
@@ -976,6 +976,7 @@ a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 15px 0px #ccc;
 }
 .contact-heading img {
     width: 50px;
