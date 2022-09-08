@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Meladora</title>
+</head>
+<body>
+    <div class="scrollToTop-btn">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+    <div class="navi">
+        <div class="navi-overlay"></div>
+        <div class="nav-fixed">
+                <div class="container">
+                    <div class="flex">
+                        <a href="#" class="nav-logo">
+                            <img src="./img/logo-secondary.png" >
+                        </a>
+                        <div class="nav-page2 d-none d-lg-block">
+                            <ul>
+                                <li>
+                                    <a href="#">Biz kimik?</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Bağlarımız</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Məhsullarımız</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Xidmətlərimiz</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Sosial məsuliyyət</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Əlaqə</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li id="firstSearch">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hamb-menu d-block d-lg-none">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="container">
+                <div class="nav-flex-up">
+                    <div class="nav-phone">
+                        <i class="fa-solid fa-phone"></i> 
+                        <span>994705555777</span>
+                    </div>
+                    <div class="nav-media">
+                        <ul>
+                            <li id="lang">
+                                <span class="nav-lang">AZ</span>
+                                <i class="fa-solid fa-angle-down" id="lang-icon"></i>
+                                <div class="lang">
+                                    <div class="lang1">EN</div>
+                                    <div class="lang2">RU</div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li id="thirdSearch">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-flex-down">
+                    <a href="#" class="nav-logo">
+                        <img src="./img/Group 1.png" >
+                    </a>
+                    <div class="nav-page d-none d-lg-block">
+                        <ul>
+                            <li>
+                                <img src="./img/leaf-1.png">
+                                <a href="#">Biz kimik?</a>
+                                <div class="underline"></div>
+                            </li>
+                            <li>
+                                <img src="./img/leaf-1.png">
+                                <a href="#">Bağlarımız</a>
+                                <div class="underline"></div>
+                            </li>
+                            <li>
+                                <img src="./img/leaf-1.png">
+                                <a href="#">Məhsullarımız</a>
+                                <div class="underline"></div>
+                            </li>
+                            <li>
+                                <img src="./img/leaf-1.png">
+                                <a href="#">Xidmətlərimiz</a>
+                                <div class="underline"></div>
+                            </li>
+                            <li>
+                                <img src="./img/leaf-1.png">
+                                <a href="#">Sosial məsuliyyət</a>
+                                <div class="underline"></div>
+                            </li>
+                            <li>
+                                <img src="./img/leaf-1.png">
+                                <a href="#">Əlaqə</a>
+                                <div class="underline"></div>
+                            </li>
+                            <li id="secondSearch">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hamb-menu2 d-block d-lg-none">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="hamb-toggle">
+                <div class="overlay"></div>
+                <div class="hamb-bg">
+                    <div class="hamb-up">
+                        <img src="./img/logo-tertiary.png">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="hamb-cent">
+                        <div class="hamb-cent-menu">
+                            <ul>
+                                <li>
+                                    <img src="./img/leaf-1.png" class="image1">
+                                    <a href="#">Biz kimik?</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <img src="./img/leaf-1.png" class="image1">
+                                    <a href="#">Bağlarımız</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <img src="./img/leaf-1.png" class="image2">
+                                    <a href="#">Məhsullarımız</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <img src="./img/leaf-1.png" class="image2">
+                                    <a href="#">Xidmətlərimiz</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <img src="./img/leaf-1.png" class="image3">
+                                    <a href="#">Sosial məsuliyyət</a>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <img src="./img/leaf-1.png" class="image4">
+                                    <a href="#">Əlaqə</a>
+                                    <div class="underline"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hamb-down">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        <div class="nav-images">
+            <div class="container">
+                <div class="nav-images-flex d-none d-lg-flex">
+                    <div class="nav-img">
+                        <div class="nav-item nav-left-bg">
+                            <div class="overl overl1-bg"></div>
+                            <div class="nav-text">
+                                <span>Meyvələr</span>
+                                <a href="#">Daha çox...</a>
+                            </div>
+                            <div class="nav-image1">
+                                <img src="./img/vippng.com-tropical-background-png-1555633.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-img">
+                        <div class="nav-item nav-cent-bg">
+                            <div class="overl overl2-bg"></div>
+                            <div class="nav-text">
+                                <span>Tərəvəzlər</span>
+                                <a href="#">Daha çox...</a>
+                            </div>
+                            <div class="nav-image2">
+                                <img src="./img/unnamed (3).png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-img d-none d-xl-block">
+                        <div class="nav-item nav-right-bg">
+                            <div class="overl overl3-bg"></div>
+                            <div class="nav-text">
+                                <span>Taxıl</span>
+                                <a href="#">Daha çox...</a>
+                            </div>
+                            <div class="nav-image3">
+                                <img src="./img/flour-clip-art-21.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper d-block d-lg-none">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide nav-slide">
+                            <div class="slide-item">
+                                <div class="slide-over slide-over1-bg"></div>
+                                <div class="slide-text">
+                                    <span>Meyvələr</span>
+                                    <a href="#">Daha çox...</a>
+                                </div>
+                                <div class="slide-image">
+                                    <img src="./img/vippng.com-tropical-background-png-1555633.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide nav-slide">
+                            <div class="slide-item">
+                                <div class="slide-over slide-over1-bg"></div>
+                                <div class="slide-text">
+                                    <span>Tərəvəzlər</span>
+                                    <a href="#">Daha çox...</a>
+                                </div>
+                                <div class="slide-image">
+                                    <img src="./img/unnamed (3).png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide nav-slide">
+                            <div class="slide-item">
+                                <div class="slide-over slide-over1-bg"></div>
+                                <div class="slide-text">
+                                    <span>Taxıl</span>
+                                    <a href="#">Daha çox...</a>
+                                </div>
+                                <div class="slide-image">
+                                    <img src="./img/flour-clip-art-21.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="navi-search" id="navi-search">
+                <form>
+                    <input type="text" placeholder="Axtarış">
+                    <button type="submit">Axtar</button>
+                    <i class="fa-solid fa-xmark" id="close"></i>
+                </form>
+        </div>
+    </div>
+    <div class="about">
+            <div class="about-fluid">
+                <div class="about-left">
+                    <img src="./img/1643266348blog-3.png" class="blog-image">
+                </div>
+                <div class="about-right">
+                    <div class="about-content">
+                        <h3>Biz kimik?</h3>
+                        <img src="./img/leaf-chain-sm.png" class="heading-image">
+                        <p class="about-text">Əslində hər şey illər əvvəl İsmayıllı rayonunda ailəvi gəzintidə olduğumuz zaman baş verdi. İsmayıllı rayonunun füsunkar təbiətinin gözəlliyi bizim bir gün burda kənd təsərufatı ilə məşqul olmaq arzusunu oyatdı. Daha sonra dostlarımızla bu məsələni müzakirə edərək İsmayıllıda təsəruffat qurmağa qərar verdik.
+                            Böyük uğurlar vaxtında və yerində verilən qərarlarla çox bağlıdır. Elə bizdə ilk səfərdə qərar verdik və başladıq.İllər çox sürətli keçdi.Bizdə böyümədə zamanın sürətindən geri qalmadıq.Qısa zaman müddətində əldə etdiyimiz uğurlar və daha sürətlə böyüməyə davam etməyimiz işimizə olan sevginin göstəricisidir.
+                            Alma,armud,nektarin,gavalı,gilas və qoz yetişdirməklə qalmadıq,tingçilik və toxumçuluqla məhsul sıramızı genişləndirdik.
+                            Qısa zamanda ən son texnoloji yeniliklərlə damla suvarma sistemlərinin qurulması BAĞLARIN layihələndirilməsi,salınması kimi çətin işlərin ödəsindən uğurla gəldik. 2022 ci ildə əsas hədəfimiz brendimizin "made in AZERBAİJAN" adına layiq ölkə kənarında rəflərdə görünməsidir.
+                            Növbəti hədəfləri sizlərlə paylaşmaq arzusuyla.
+                        </p>
+                        <p class="text-footer">
+                            Hörmətlə
+                            <br>
+                            MELADORA kollektivi
+                        </p>
+                        <img src="./img/leaf-chain-lg.png" class="footer-image">
+                        <div class="about-footer">
+                            <div>
+                                <img src="./img/seedling-hand.png">
+                                <span>Organik</span>
+                            </div>
+                            <div>
+                                <img src="./img/heart.png">
+                                <span>Məmnuniyyət</span>
+                            </div>
+                            <div>
+                                <img src="./img/quality.png">
+                                <span>Yüksək keyfiyyət</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="garden container">
+        <h3>Baglarimiz</h3>
+        <img src="./img/leaf-chain-sm.png">
+        <div class="garden-body">
+            <div class=" garden-col">
+                <div class="garden-left">
+                    <img src="./img/01.png">
+                    <span>BAG</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veniam libero nostrum perspiciatis et, facilis corporis soluta est similique quas saepe illo obcaecati ab. Perferendis!</p>
+                    <img src="./img/karina-vorozheeva-brQS8ihqRq4-unsplash.png" class="img">
+                </div>
+            </div>
+            <div class="garden-col">
+                <div class="garden-cent">
+                    <img src="./img/02.png">
+                    <span>BAG</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veniam libero nostrum perspiciatis et, facilis corporis soluta est similique quas saepe illo obcaecati ab. Perferendis!</p>
+                    <img src="./img/adele-payman-2oYMwuFgnTg-unsplash.png" class="img">
+                </div>
+            </div>
+            <div class="garden-col">
+                <div class="garden-right">
+                    <img src="./img/03.png">
+                    <span>BAG</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veniam libero nostrum perspiciatis et, facilis corporis soluta est similique quas saepe illo obcaecati ab. Perferendis!</p>
+                    <img src="./img/markus-winkler-HeqXGxnsnX4-unsplash.png" class="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product">
+        <h3>Məhsullarımız</h3>
+        <img src="./img/leaf-chain-sm.png">
+        <div class="product-heading">
+            <span id="fruit">Meyvələr</span>
+            <span id="vegetable">Tərəvəzlər</span>
+        </div>
+        <div class="container product-all">
+            <div class="product-fruit">
+                <div class="product-items">
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/armud.jpg">
+                            <div class="price-box">
+                                <span>Armud</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/alca.jpg">
+                            <div class="price-box">
+                                <span>Göyçə</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/gavali.jpg">
+                            <div class="price-box">
+                                <span>Gavalı</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/saftali.jpg">
+                            <div class="price-box">
+                                <span>Nektarin</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/gilas.jpg">
+                            <div class="price-box">
+                                <span>Gilas</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/alma.png">
+                            <div class="price-box">
+                                <span>Alma</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-vegetable">
+                <div class="product-items">
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/xiyar.jpg">
+                            <div class="price-box">
+                                <span>Xiyar</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/pomidor.jpg">
+                            <div class="price-box">
+                                <span>Pomidor</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/yerkoku.jpg">
+                            <div class="price-box">
+                                <span>Yer kökü</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img//soğan.jpg">
+                            <div class="price-box">
+                                <span>Soğan</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/kələm.jpg">
+                            <div class="price-box">
+                                <span>Kələm</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-box"></div>
+                        <div class="box-over">
+                            <img src="./img/cugundur.jpg">
+                            <div class="price-box">
+                                <span>Çuğundur</span>
+                                <span>0.00 ₼</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service container">
+        <img src="./img/Group 417.png">
+        <h3>Xidmetlerimiz</h3>
+        <div class="service-body">
+            <div class="service-col">
+                <img src="./img/Group 436.png">
+                <h6>Damci suvarma sistemleri</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sint neque deserunt, quibusdam, veritatis pariatur officiis doloremque dolorem, fugiat nisi reiciendis cumque cum nulla laboriosam ad quo beatae labore quos.</p>
+            </div>
+            <div class="service-col">
+                <img src="./img/Path 4414.png">
+                <h6>Layihelendirme</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sint neque deserunt, quibusdam, veritatis pariatur officiis doloremque dolorem, fugiat nisi reiciendis cumque cum nulla laboriosam ad quo beatae labore quos.</p>
+            </div>
+            <div class="service-col">
+                <img src="./img/Path 4413.png">
+                <h6>Acar teslim baglarin salinmasi</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sint neque deserunt, quibusdam, veritatis pariatur officiis doloremque dolorem, fugiat nisi reiciendis cumque cum nulla laboriosam ad quo beatae labore quos.</p>
+            </div>
+        </div>
+    </div>
+    <div class="responsibility container">
+        <img src="./img/Group 417.png">
+        <h3>Sosial mesuliyyet</h3>
+        <div class="res-body">        
+            <p>Sahibkar olaraq təkcə qazanc əldə etmək deyil həmdə cəmiyyətə müxtəlif sahələrdə faydalı olmağın zəruriliyini anlayırıq və bu istiqamətdə fəaliyyətlərimiz davam edir. Əhalinin müəyyən təbəqələrinin həyatını yaxşılaşdirmaq ucun sosial ehemiyyetli proqramlar heyata keciririk.</p>
+            <p>Dostlarimiz ve cevremiz bizi yaxsi taniyir.</p>
+        </div>
+    </div>
+    <div class="contact container">
+        <img src="./img/Group 417.png">
+        <h3>Elaqe</h3>
+        <div class="contact-body">
+            <div class="contact-col">
+                <div class="contact-content">
+                    <div class="contact-heading">
+                        <img src="./img/Group 448.png">
+                    </div>
+                    <p>Meladora MMC<br> Bas Ofis; <br> Baki</p>
+                </div>
+            </div>
+            <div class="contact-col">
+                <div class="contact-content">
+                    <div class="contact-heading">
+                        <img src="./img/Group 447.png">
+                    </div>
+                    <p>+994 (70) 5555777<br> +994 (012) 5555777</p>
+                </div>
+            </div>
+            <div class="contact-col">
+                <div class="contact-content">
+                    <div class="contact-heading">
+                        <img src="./img/Group 449.png">
+                    </div>
+                    <p>Istehsal: Ismayilli ray. Qalincaq kendi <br> Tel: +994 (012) 7404140</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+            <div class="footer-content container">
+                <div class="footer-nav">
+                    <div class="footer-item">
+                        <div class="footer-img">
+                            <img src="./img/logo-secondary.png">
+                        </div>
+                    </div>
+                    <div class="footer-empty"></div>
+                    <div class="footer-service">
+                        <h5>Xidmətlərimiz</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Bağların salınması</a>
+                            </li>
+                            <li>
+                                <a href="#">Texniki vasitələrin satışı və servisi</a>
+                            </li>
+                            <li>
+                                <a href="#">Suvarma sistemləri</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu">
+                        <h5>Menyular</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Biz kimik?</a>
+                            </li>
+                            <li>
+                                <a href="#">Bağlarımız</a>
+                            </li>
+                            <li>
+                                <a href="#">Məhsullarımız</a>
+                            </li>
+                            <li>
+                                <a href="#">Xidmətlərimiz</a>
+                            </li>
+                            <li>
+                                <a href="#">Sosial məsuliyyət</a>
+                            </li>
+                            <li>
+                                <a href="#">Əlaqə</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-official">
+                    <div class="footer-copy">
+                        <span>Copyright 2022-</span><a href="#">mela-dora.com</a>
+                    </div>
+                    <div class="footer-site">
+                        <span>Powered by</span><a href="#">Proton.az</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
