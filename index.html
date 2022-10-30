@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -14,620 +17,179 @@
     <div class="scrollToTop-btn">
         <i class="fa-solid fa-angle-up"></i>
     </div>
+
     <div class="navi">
         <div class="navi-overlay"></div>
-        <div class="nav-fixed">
-                <div class="container">
-                    <div class="flex">
-                        <a href="#" class="nav-logo">
-                            <img src="./img/logo-secondary.png" >
-                        </a>
-                        <div class="nav-page2 d-none d-lg-block">
-                            <ul>
-                                <li>
-                                    <a href="#">Biz kimik?</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <a href="#">Bağlarımız</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <a href="#">Məhsullarımız</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <a href="#">Xidmətlərimiz</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <a href="#">Sosial məsuliyyət</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <a href="#">Əlaqə</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li id="firstSearch">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="hamb-menu d-block d-lg-none">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        <div class="container">
-                <div class="nav-flex-up">
-                    <div class="nav-phone">
-                        <i class="fa-solid fa-phone"></i> 
+        <div class="navi-content container">
+            <div class="navi-contact">
+                <div class="navi-tel">
+                    <a href="tel:+994705555777">
+                        <i class="fa-solid fa-phone"></i>
                         <span>994705555777</span>
-                    </div>
-                    <div class="nav-media">
-                        <ul>
-                            <li id="lang">
-                                <span class="nav-lang">AZ</span>
-                                <i class="fa-solid fa-angle-down" id="lang-icon"></i>
-                                <div class="lang">
-                                    <div class="lang1">EN</div>
-                                    <div class="lang2">RU</div>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </a>
-                            </li>
-                            <li id="thirdSearch">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="nav-flex-down">
-                    <a href="#" class="nav-logo">
-                        <img src="./img/Group 1.png" >
                     </a>
-                    <div class="nav-page d-none d-lg-block">
-                        <ul>
-                            <li>
-                                <img src="./img/leaf-1.png">
-                                <a href="#">Biz kimik?</a>
-                                <div class="underline"></div>
-                            </li>
-                            <li>
-                                <img src="./img/leaf-1.png">
-                                <a href="#">Bağlarımız</a>
-                                <div class="underline"></div>
-                            </li>
-                            <li>
-                                <img src="./img/leaf-1.png">
-                                <a href="#">Məhsullarımız</a>
-                                <div class="underline"></div>
-                            </li>
-                            <li>
-                                <img src="./img/leaf-1.png">
-                                <a href="#">Xidmətlərimiz</a>
-                                <div class="underline"></div>
-                            </li>
-                            <li>
-                                <img src="./img/leaf-1.png">
-                                <a href="#">Sosial məsuliyyət</a>
-                                <div class="underline"></div>
-                            </li>
-                            <li>
-                                <img src="./img/leaf-1.png">
-                                <a href="#">Əlaqə</a>
-                                <div class="underline"></div>
-                            </li>
-                            <li id="secondSearch">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </li>
-                        </ul>
+                </div>
+                <div class="navi-media">
+                    <ul>
+                        <li>
+                            <span>AZ</span>
+                            <i class="fa-solid fa-angle-down" id="lang-icon"></i>
+                            <div class="langs">
+                                <div class="lang1">EN</div>
+                                <div class="lang2">RU</div>
+                            </div>
+                        </li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="navi-menu">
+                <a href="#" class="navi-logo">
+                    <img src="./img/nav-logo.png">
+                </a>
+                <ul>
+                    <li>
+                        <a href="#">Biz kimik?</a><img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Bağlarımız</a><img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Məhsullarımız</a><img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Xidmətlərimiz</a><img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Sosial məsuliyyət</a><img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Əlaqə</a><img src="./img/nav-leaf.png">
+                    </li>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </ul>
+                <div class="navi-hamb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="navi-category">
+                <div class="navi-fruit">
+                    <h5>Meyvələr</h5>
+                    <img src="./img/home-bg4.png">
+                </div>
+                <div class="navi-vegetable">
+                    <h5>Tərəvəzlər</h5>
+                    <img src="./img/home-bg5.png">
+                </div>
+            </div>
+            <div class="swiper mySwiper navi-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide fruit-slide">
+                        <h5>Meyvələr</h5>
+                        <img src="./img/home-bg4.png">
                     </div>
-                    <div class="hamb-menu2 d-block d-lg-none">
-                        <i class="fa-solid fa-bars"></i>
+                    <div class="swiper-slide vegetable-slide">
+                        <h5>Tərəvəzlər</h5>
+                        <img src="./img/home-bg5.png">
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
-        <div class="hamb-toggle">
-                <div class="overlay"></div>
-                <div class="hamb-bg">
-                    <div class="hamb-up">
-                        <img src="./img/logo-tertiary.png">
-                        <i class="fa-solid fa-xmark"></i>
-                    </div>
-                    <div class="hamb-cent">
-                        <div class="hamb-cent-menu">
-                            <ul>
-                                <li>
-                                    <img src="./img/leaf-1.png" class="image1">
-                                    <a href="#">Biz kimik?</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <img src="./img/leaf-1.png" class="image1">
-                                    <a href="#">Bağlarımız</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <img src="./img/leaf-1.png" class="image2">
-                                    <a href="#">Məhsullarımız</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <img src="./img/leaf-1.png" class="image2">
-                                    <a href="#">Xidmətlərimiz</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <img src="./img/leaf-1.png" class="image3">
-                                    <a href="#">Sosial məsuliyyət</a>
-                                    <div class="underline"></div>
-                                </li>
-                                <li>
-                                    <img src="./img/leaf-1.png" class="image4">
-                                    <a href="#">Əlaqə</a>
-                                    <div class="underline"></div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="hamb-down">
-                        <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </div>
-                </div>
-        </div>
-        <div class="nav-images">
+        <div class="navi-fixed">
             <div class="container">
-                <div class="nav-images-flex d-none d-lg-flex">
-                    <div class="nav-img">
-                        <div class="nav-item nav-left-bg">
-                            <div class="overl overl1-bg"></div>
-                            <div class="nav-text">
-                                <span>Meyvələr</span>
-                                <a href="#">Daha çox...</a>
-                            </div>
-                            <div class="nav-image1">
-                                <img src="./img/vippng.com-tropical-background-png-1555633.png">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="nav-img">
-                        <div class="nav-item nav-cent-bg">
-                            <div class="overl overl2-bg"></div>
-                            <div class="nav-text">
-                                <span>Tərəvəzlər</span>
-                                <a href="#">Daha çox...</a>
-                            </div>
-                            <div class="nav-image2">
-                                <img src="./img/unnamed (3).png">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="nav-img d-none d-xl-block">
-                        <div class="nav-item nav-right-bg">
-                            <div class="overl overl3-bg"></div>
-                            <div class="nav-text">
-                                <span>Taxıl</span>
-                                <a href="#">Daha çox...</a>
-                            </div>
-                            <div class="nav-image3">
-                                <img src="./img/flour-clip-art-21.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper mySwiper d-block d-lg-none">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide nav-slide">
-                            <div class="slide-item">
-                                <div class="slide-over slide-over1-bg"></div>
-                                <div class="slide-text">
-                                    <span>Meyvələr</span>
-                                    <a href="#">Daha çox...</a>
-                                </div>
-                                <div class="slide-image">
-                                    <img src="./img/vippng.com-tropical-background-png-1555633.png">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide nav-slide">
-                            <div class="slide-item">
-                                <div class="slide-over slide-over1-bg"></div>
-                                <div class="slide-text">
-                                    <span>Tərəvəzlər</span>
-                                    <a href="#">Daha çox...</a>
-                                </div>
-                                <div class="slide-image">
-                                    <img src="./img/unnamed (3).png">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide nav-slide">
-                            <div class="slide-item">
-                                <div class="slide-over slide-over1-bg"></div>
-                                <div class="slide-text">
-                                    <span>Taxıl</span>
-                                    <a href="#">Daha çox...</a>
-                                </div>
-                                <div class="slide-image">
-                                    <img src="./img/flour-clip-art-21.png">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </div>
-        <div class="navi-search" id="navi-search">
-                <form>
-                    <input type="text" placeholder="Axtarış">
-                    <button type="submit">Axtar</button>
-                    <i class="fa-solid fa-xmark" id="close"></i>
-                </form>
-        </div>
-    </div>
-    <div class="about">
-            <div class="about-fluid">
-                <div class="about-left">
-                    <img src="./img/1643266348blog-3.png" class="blog-image">
-                </div>
-                <div class="about-right">
-                    <div class="about-content">
-                        <h3>Biz kimik?</h3>
-                        <img src="./img/leaf-chain-sm.png" class="heading-image">
-                        <p class="about-text">Əslində hər şey illər əvvəl İsmayıllı rayonunda ailəvi gəzintidə olduğumuz zaman baş verdi. İsmayıllı rayonunun füsunkar təbiətinin gözəlliyi bizim bir gün burda kənd təsərufatı ilə məşqul olmaq arzusunu oyatdı. Daha sonra dostlarımızla bu məsələni müzakirə edərək İsmayıllıda təsəruffat qurmağa qərar verdik.
-                            Böyük uğurlar vaxtında və yerində verilən qərarlarla çox bağlıdır. Elə bizdə ilk səfərdə qərar verdik və başladıq.İllər çox sürətli keçdi.Bizdə böyümədə zamanın sürətindən geri qalmadıq.Qısa zaman müddətində əldə etdiyimiz uğurlar və daha sürətlə böyüməyə davam etməyimiz işimizə olan sevginin göstəricisidir.
-                            Alma,armud,nektarin,gavalı,gilas və qoz yetişdirməklə qalmadıq,tingçilik və toxumçuluqla məhsul sıramızı genişləndirdik.
-                            Qısa zamanda ən son texnoloji yeniliklərlə damla suvarma sistemlərinin qurulması BAĞLARIN layihələndirilməsi,salınması kimi çətin işlərin ödəsindən uğurla gəldik. 2022 ci ildə əsas hədəfimiz brendimizin "made in AZERBAİJAN" adına layiq ölkə kənarında rəflərdə görünməsidir.
-                            Növbəti hədəfləri sizlərlə paylaşmaq arzusuyla.
-                        </p>
-                        <p class="text-footer">
-                            Hörmətlə
-                            <br>
-                            MELADORA kollektivi
-                        </p>
-                        <img src="./img/leaf-chain-lg.png" class="footer-image">
-                        <div class="about-footer">
-                            <div>
-                                <img src="./img/seedling-hand.png">
-                                <span>Organik</span>
-                            </div>
-                            <div>
-                                <img src="./img/heart.png">
-                                <span>Məmnuniyyət</span>
-                            </div>
-                            <div>
-                                <img src="./img/quality.png">
-                                <span>Yüksək keyfiyyət</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-    <div class="garden container">
-        <h3>Baglarimiz</h3>
-        <img src="./img/leaf-chain-sm.png">
-        <div class="garden-body">
-            <div class=" garden-col">
-                <div class="garden-left">
-                    <img src="./img/01.png">
-                    <span>BAG</span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veniam libero nostrum perspiciatis et, facilis corporis soluta est similique quas saepe illo obcaecati ab. Perferendis!</p>
-                    <img src="./img/karina-vorozheeva-brQS8ihqRq4-unsplash.png" class="img">
-                </div>
-            </div>
-            <div class="garden-col">
-                <div class="garden-cent">
-                    <img src="./img/02.png">
-                    <span>BAG</span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veniam libero nostrum perspiciatis et, facilis corporis soluta est similique quas saepe illo obcaecati ab. Perferendis!</p>
-                    <img src="./img/adele-payman-2oYMwuFgnTg-unsplash.png" class="img">
-                </div>
-            </div>
-            <div class="garden-col">
-                <div class="garden-right">
-                    <img src="./img/03.png">
-                    <span>BAG</span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veniam libero nostrum perspiciatis et, facilis corporis soluta est similique quas saepe illo obcaecati ab. Perferendis!</p>
-                    <img src="./img/markus-winkler-HeqXGxnsnX4-unsplash.png" class="img">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <h3>Məhsullarımız</h3>
-        <img src="./img/leaf-chain-sm.png">
-        <div class="product-heading">
-            <span id="fruit">Meyvələr</span>
-            <span id="vegetable">Tərəvəzlər</span>
-        </div>
-        <div class="container product-all">
-            <div class="product-fruit">
-                <div class="product-items">
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/armud.jpg">
-                            <div class="price-box">
-                                <span>Armud</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/alca.jpg">
-                            <div class="price-box">
-                                <span>Göyçə</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/gavali.jpg">
-                            <div class="price-box">
-                                <span>Gavalı</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/saftali.jpg">
-                            <div class="price-box">
-                                <span>Nektarin</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/gilas.jpg">
-                            <div class="price-box">
-                                <span>Gilas</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/alma.png">
-                            <div class="price-box">
-                                <span>Alma</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-vegetable">
-                <div class="product-items">
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/xiyar.jpg">
-                            <div class="price-box">
-                                <span>Xiyar</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/pomidor.jpg">
-                            <div class="price-box">
-                                <span>Pomidor</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/yerkoku.jpg">
-                            <div class="price-box">
-                                <span>Yer kökü</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img//soğan.jpg">
-                            <div class="price-box">
-                                <span>Soğan</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/kələm.jpg">
-                            <div class="price-box">
-                                <span>Kələm</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-box"></div>
-                        <div class="box-over">
-                            <img src="./img/cugundur.jpg">
-                            <div class="price-box">
-                                <span>Çuğundur</span>
-                                <span>0.00 ₼</span>
-                            </div>
-                        </div>
+                <div>
+                    <a href="#" class="navi-logo">
+                        <img src="./img/navFixed-logo.png">
+                    </a>
+                    <ul>
+                        <li><a href="#">Biz kimik?</a></li>
+                        <li><a href="#">Bağlarımız</a></li>
+                        <li><a href="#">Məhsullarımız</a></li>
+                        <li><a href="#">Xidmətlərimiz</a></li>
+                        <li><a href="#">Sosial məsuliyyət</a></li>
+                        <li><a href="#">Əlaqə</a></li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </ul>
+                    <div class="navi-hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="service container">
-        <img src="./img/Group 417.png">
-        <h3>Xidmetlerimiz</h3>
-        <div class="service-body">
-            <div class="service-col">
-                <img src="./img/Group 436.png">
-                <h6>Damci suvarma sistemleri</h6>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sint neque deserunt, quibusdam, veritatis pariatur officiis doloremque dolorem, fugiat nisi reiciendis cumque cum nulla laboriosam ad quo beatae labore quos.</p>
-            </div>
-            <div class="service-col">
-                <img src="./img/Path 4414.png">
-                <h6>Layihelendirme</h6>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sint neque deserunt, quibusdam, veritatis pariatur officiis doloremque dolorem, fugiat nisi reiciendis cumque cum nulla laboriosam ad quo beatae labore quos.</p>
-            </div>
-            <div class="service-col">
-                <img src="./img/Path 4413.png">
-                <h6>Acar teslim baglarin salinmasi</h6>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sint neque deserunt, quibusdam, veritatis pariatur officiis doloremque dolorem, fugiat nisi reiciendis cumque cum nulla laboriosam ad quo beatae labore quos.</p>
+        <div class="navi-search">
+            <i class="fa-solid fa-xmark"></i>
+            <form>
+                <input type="text" placeholder="Axtarış">
+                <input type="submit" value="Axtar">
+            </form>
+        </div>
+        <div class="navi-hidden">
+            <div class="hiddenNavi-overlay"></div>
+            <div class="hiddenNavi-content">
+                <div>
+                    <img src="./img/navHidden-logo.png">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Biz kimik?</a>
+                        <img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Bağlarımız</a>
+                        <img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Məhsullarımız</a>
+                        <img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Xidmətlərimiz</a>
+                        <img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Sosial məsuliyyət</a>
+                        <img src="./img/nav-leaf.png">
+                    </li>
+                    <li>
+                        <a href="#">Əlaqə</a>
+                        <img src="./img/nav-leaf.png">
+                    </li>
+                </ul>
+                <div>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="responsibility container">
-        <img src="./img/Group 417.png">
-        <h3>Sosial mesuliyyet</h3>
-        <div class="res-body">        
-            <p>Sahibkar olaraq təkcə qazanc əldə etmək deyil həmdə cəmiyyətə müxtəlif sahələrdə faydalı olmağın zəruriliyini anlayırıq və bu istiqamətdə fəaliyyətlərimiz davam edir. Əhalinin müəyyən təbəqələrinin həyatını yaxşılaşdirmaq ucun sosial ehemiyyetli proqramlar heyata keciririk.</p>
-            <p>Dostlarimiz ve cevremiz bizi yaxsi taniyir.</p>
-        </div>
-    </div>
-    <div class="contact container">
-        <img src="./img/Group 417.png">
-        <h3>Elaqe</h3>
-        <div class="contact-body">
-            <div class="contact-col">
-                <div class="contact-content">
-                    <div class="contact-heading">
-                        <img src="./img/Group 448.png">
-                    </div>
-                    <p>Meladora MMC<br> Bas Ofis; <br> Baki</p>
-                </div>
-            </div>
-            <div class="contact-col">
-                <div class="contact-content">
-                    <div class="contact-heading">
-                        <img src="./img/Group 447.png">
-                    </div>
-                    <p>+994 (70) 5555777<br> +994 (012) 5555777</p>
-                </div>
-            </div>
-            <div class="contact-col">
-                <div class="contact-content">
-                    <div class="contact-heading">
-                        <img src="./img/Group 449.png">
-                    </div>
-                    <p>Istehsal: Ismayilli ray. Qalincaq kendi <br> Tel: +994 (012) 7404140</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-            <div class="footer-content container">
-                <div class="footer-nav">
-                    <div class="footer-item">
-                        <div class="footer-img">
-                            <img src="./img/logo-secondary.png">
-                        </div>
-                    </div>
-                    <div class="footer-empty"></div>
-                    <div class="footer-service">
-                        <h5>Xidmətlərimiz</h5>
-                        <ul>
-                            <li>
-                                <a href="#">Bağların salınması</a>
-                            </li>
-                            <li>
-                                <a href="#">Texniki vasitələrin satışı və servisi</a>
-                            </li>
-                            <li>
-                                <a href="#">Suvarma sistemləri</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-menu">
-                        <h5>Menyular</h5>
-                        <ul>
-                            <li>
-                                <a href="#">Biz kimik?</a>
-                            </li>
-                            <li>
-                                <a href="#">Bağlarımız</a>
-                            </li>
-                            <li>
-                                <a href="#">Məhsullarımız</a>
-                            </li>
-                            <li>
-                                <a href="#">Xidmətlərimiz</a>
-                            </li>
-                            <li>
-                                <a href="#">Sosial məsuliyyət</a>
-                            </li>
-                            <li>
-                                <a href="#">Əlaqə</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-official">
-                    <div class="footer-copy">
-                        <span>Copyright 2022-</span><a href="#">mela-dora.com</a>
-                    </div>
-                    <div class="footer-site">
-                        <span>Powered by</span><a href="#">Proton.az</a>
-                    </div>
-                </div>
-            </div>
-    </div>
+
+
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos deleniti soluta nobis inventore at sapiente sunt architecto consequatur vel? Corporis similique nulla officia quod autem aperiam harum! Voluptas a architecto iusto vitae quod sint eaque. Recusandae aliquid officiis impedit veniam cupiditate esse est, saepe alias unde assumenda, magni nemo commodi quo eveniet vero quae fugiat distinctio doloremque quisquam illo repellat in. Error vero ut vel sint reprehenderit maxime perferendis illum quasi quas? Incidunt dolor placeat ea dignissimos, quae exercitationem sapiente aliquam, molestiae, inventore neque vero ab laborum eum fugit doloribus aut natus vel in nulla est magnam sit? Aliquam quas minus accusamus distinctio temporibus eaque neque inventore dolores ipsam quae, modi, praesentium facilis quam blanditiis accusantium nobis aut necessitatibus maxime consequuntur nostrum. Id, voluptatem? Fugiat, corrupti quo. Eaque perspiciatis quasi vitae, laborum eum enim numquam quaerat eius laboriosam, quisquam vero exercitationem sint labore deleniti ut voluptatum quibusdam officia iusto placeat, adipisci aspernatur optio repellendus nisi. Dolorem temporibus similique in illum tempora error aliquid, autem laboriosam suscipit aliquam iusto, architecto ut fugit odio quibusdam veniam pariatur. Laborum dolorum officia quam numquam laboriosam, itaque et impedit alias at rerum quaerat totam, quod a iusto. Veniam magni eos eligendi neque, explicabo repellat nulla et. Cupiditate quia ipsa ea suscipit itaque recusandae in illum magnam sapiente necessitatibus eius, aut ad assumenda veniam animi expedita nisi repudiandae distinctio provident nobis, consequatur illo? Repellendus fugit voluptas reiciendis laborum fuga ad tempora doloribus asperiores architecto blanditiis et unde dolorem qui accusamus a laboriosam sed, facilis consequatur sint! Eveniet perspiciatis enim ut magnam? Deserunt officia architecto rem sed, veritatis in expedita tempora voluptas eaque! Doloremque, voluptate corporis consectetur debitis ab est, doloribus nihil mollitia rerum fugiat sint incidunt laudantium aliquid, quas recusandae sit molestiae fugit explicabo? Cum fugit voluptatibus culpa blanditiis. Inventore exercitationem, nemo totam soluta modi, cum ipsam odit magnam sunt quidem cumque laborum nobis suscipit dicta quo deserunt quasi dolor fugiat accusantium? Labore saepe soluta nesciunt laudantium reiciendis explicabo culpa, eveniet veniam obcaecati iure, maiores eaque ratione recusandae pariatur accusamus quis iusto doloremque, distinctio adipisci placeat? Mollitia incidunt eos nostrum eveniet, beatae corporis dolore voluptate placeat quibusdam similique excepturi sint fugit ut. Expedita id quos voluptatem harum amet laborum dolore doloremque totam eveniet, quaerat, unde molestiae blanditiis, ipsam omnis? Placeat, enim numquam? Adipisci magnam nobis quam nisi velit nemo quod illum accusamus dolorum incidunt eligendi autem repellendus nostrum dignissimos magni eaque recusandae nulla expedita, impedit voluptates officia inventore voluptatibus, aut omnis? Enim sequi libero odit rem eaque, maiores ducimus quidem quaerat consequatur et id, possimus quod distinctio aut veritatis cumque excepturi! Velit, nulla. Recusandae ratione eveniet iusto? Amet praesentium libero numquam. Quisquam, veniam. Natus consectetur praesentium laboriosam dolores et, dolor quaerat, deserunt ab repellendus, labore ad? Quidem necessitatibus voluptatum ad sed explicabo exercitationem blanditiis dicta aut, numquam voluptate quae expedita cupiditate mollitia voluptatibus quia neque, accusamus dolores culpa corrupti sapiente odit natus a? Magni perspiciatis qui molestiae quam error unde quidem, architecto aut. Quidem, quos est. Sunt vero voluptates tempora id, magni harum itaque incidunt. Quae ab excepturi neque id corporis sapiente accusamus, nostrum iste sint! Excepturi mollitia quaerat assumenda delectus minima, voluptatibus possimus accusamus, earum dolore ipsam maxime inventore cumque blanditiis aut aspernatur dolor aperiam commodi repudiandae ducimus a in perferendis nihil minus quos. Deserunt explicabo vero adipisci temporibus quibusdam est velit a laborum ipsam omnis. Possimus ipsam magnam laborum repudiandae officiis quidem iste asperiores! Facilis quis ipsum reiciendis quae, repudiandae, nihil officia cupiditate incidunt quo recusandae magnam. Provident ut culpa mollitia! Perferendis totam praesentium eos dolor, mollitia natus aliquam minus quisquam nostrum in similique officia nihil magni dolorum odio nisi velit esse! Amet laboriosam nulla id? Corporis, nam! Aliquid, incidunt esse vel quas officiis voluptate eum a, quia rerum dicta sunt adipisci nobis quidem nostrum minus mollitia, eos corrupti. Quam expedita, necessitatibus, totam rem laborum tenetur enim reiciendis animi, praesentium incidunt officiis sint modi? Et delectus dolorum rerum neque dolore quas deleniti cum soluta ad, adipisci veniam sequi. Ab explicabo ratione consequatur, sapiente natus qui doloribus. Error temporibus iusto magni labore id alias cupiditate, sequi, dolorem delectus voluptatem dolore? Ex quasi deserunt recusandae doloremque. Velit exercitationem obcaecati repellat accusamus possimus iusto in ab a optio. Nam quae voluptate blanditiis officia doloremque expedita, assumenda rem. Recusandae veritatis ipsa praesentium molestiae atque dolorem dolorum ab deleniti, eligendi aspernatur dolor porro omnis fugiat ad odit eveniet deserunt delectus. Nisi beatae id earum nemo asperiores eveniet error autem iste eaque. Explicabo voluptas ipsam deserunt voluptatibus amet expedita tempore reprehenderit recusandae, minus omnis voluptatem, enim natus possimus fuga! Ab ea aperiam in saepe quas expedita, molestiae maiores. Nobis cumque dolore est, maxime hic quasi ea excepturi quisquam odio velit ab aut reprehenderit? Rerum, optio amet explicabo nemo cumque iusto esse illum animi voluptatibus aspernatur ullam deserunt provident unde numquam quod cupiditate voluptate minima minus corrupti qui obcaecati! Quibusdam doloribus tempora expedita eligendi ipsam esse velit, reprehenderit, dolore magnam non amet, nemo totam assumenda veritatis laboriosam nihil. Minima unde quos perferendis saepe architecto dolore, itaque odio porro, molestias dicta voluptates rem velit consectetur dolor expedita. Ipsa quas consectetur quibusdam cum voluptate nihil soluta laborum id neque nisi hic nulla autem ex sit ipsum fugiat expedita vero iste optio illo, porro nobis ab voluptatum explicabo? Quidem nam voluptates qui commodi officiis facere nisi error, quaerat debitis, deserunt ea sequi aliquid repudiandae odio similique omnis, iure cum unde voluptate molestiae beatae! Odio fugit laboriosam libero molestiae dicta ducimus aut explicabo cupiditate hic eius officiis aliquam incidunt nam id, omnis nemo tempore modi eum ipsam? Deserunt cumque adipisci libero blanditiis consequatur quasi animi ut culpa asperiores pariatur sequi veritatis illo iusto aliquam perferendis dignissimos odit nam dolore, sunt impedit modi at, labore nobis. Iste possimus eveniet recusandae nobis dolore perspiciatis, laudantium eos aperiam itaque fuga molestiae! Repellendus dicta, enim soluta mollitia qui sequi quibusdam, molestias eligendi eaque tempora aspernatur iure! Quidem, atque quasi numquam magni temporibus eius ab laudantium repellendus odio quos ratione veniam obcaecati saepe aut. Saepe omnis dolorum corporis soluta aperiam labore, aliquam iusto cupiditate fuga, quod quam, quis placeat. Quo nam explicabo consequatur hic molestias quaerat nemo recusandae natus quia vitae voluptatibus dolorem doloremque molestiae earum accusantium voluptates cum vero quam ut et obcaecati reprehenderit, optio laudantium distinctio? Ratione eum asperiores accusantium magni laborum ipsum maxime, minima cupiditate et voluptates quam architecto odit aliquid dignissimos sit laudantium non quo dolorem, dolor fugit? Autem veritatis alias harum eius animi officia asperiores facere error adipisci eos, vitae dolorem! Cumque neque saepe odio, quibusdam dignissimos qui, nesciunt accusamus iste voluptatibus, ipsum omnis voluptatem consectetur vel dolore eos. Molestias dicta laboriosam enim quasi dolorem, in accusantium. Commodi tempore, ea quae ab ratione vero doloribus nesciunt delectus dolores nisi nihil asperiores officiis voluptate consequuntur cum quas corporis qui dolore iure eius sint. Deleniti quos neque, unde voluptate exercitationem facilis non, nulla saepe, dolores corrupti amet. Optio minima asperiores obcaecati, ipsum at error officia? In, magni reiciendis ratione libero laboriosam officiis similique dignissimos mollitia explicabo alias autem! Delectus laborum nesciunt animi veniam perferendis nobis quod, recusandae voluptatem. Corrupti dignissimos excepturi distinctio. Iusto eius iste voluptatibus excepturi maxime aliquam possimus mollitia soluta quos libero quasi commodi placeat, voluptate pariatur deleniti dolores eaque sapiente odit. In pariatur fuga tempora sit rerum odit eius tenetur deleniti necessitatibus quidem consequuntur repellendus error culpa suscipit dolore consectetur atque officiis omnis, exercitationem veritatis quo sed unde nobis. Quae, ipsa explicabo. Ullam sint dolor aliquam culpa ipsam et alias harum doloribus amet explicabo delectus laudantium consectetur magni quasi soluta perspiciatis voluptatibus autem, voluptas quia, atque impedit facere quas, eum molestias. Voluptas est, labore inventore dicta aliquam numquam recusandae animi? Voluptas modi expedita tempore repellendus quos veritatis vero facere pariatur eaque similique magni, iusto eum adipisci maiores totam velit obcaecati! Maiores, cum laudantium. Ipsum, aut officia neque ipsam reiciendis totam optio saepe alias repudiandae voluptatem, aspernatur temporibus molestias accusamus corrupti minus mollitia, eum distinctio veritatis atque consectetur quae dolorum natus ullam architecto! Reiciendis incidunt praesentium culpa fuga? Odit voluptatum quaerat sunt minus eaque nemo tempora eum, molestiae est at! Laudantium, doloribus. At eum tenetur dolorum accusamus unde magnam, fuga fugiat vel cumque optio exercitationem eius velit repudiandae minus est beatae! Pariatur eius quisquam ab eum sit molestiae et, vero a error nostrum, suscipit mollitia nulla! Quos, dolore quia. Laudantium repellendus voluptatem ab necessitatibus non vitae dignissimos. Minima fuga neque aliquam repellat, fugit nemo, inventore ducimus beatae nam commodi dicta ullam eaque deserunt molestiae aperiam mollitia nisi quas! Nihil, voluptates earum. Suscipit in necessitatibus fugit repudiandae quibusdam eaque itaque, maxime, odit adipisci dolorum repellat asperiores eos quaerat iure, laborum iste voluptas. Vitae sunt saepe ipsum tempore quam architecto, et corrupti iure, dolor quaerat dolore at, enim aliquid ducimus illo magni maiores veritatis. Vero aut autem culpa ullam tempore deleniti facilis quibusdam perspiciatis quae fuga cum veritatis mollitia, recusandae repudiandae quod architecto dolorum soluta. Doloremque facilis consectetur nemo amet non! Possimus voluptatem aliquid quod? Tenetur, eligendi temporibus libero nam consequatur, praesentium, voluptatem in facilis hic voluptas placeat ipsum debitis sapiente! Esse ut ducimus inventore sunt dolores, incidunt labore libero tempora. Qui dolore nostrum expedita, reiciendis maiores iusto corporis omnis aliquam quasi voluptatibus provident deleniti assumenda. Ut nemo itaque quo? Possimus nesciunt pariatur distinctio sint quod earum dolorem? Et, voluptate reprehenderit accusamus sint provident illum. Corrupti consectetur distinctio repudiandae! Numquam blanditiis placeat nesciunt neque dicta, autem quos voluptate provident delectus harum dignissimos rerum praesentium, asperiores, velit quam voluptatum? Ullam totam ad magnam sapiente fugit obcaecati, ducimus eos. Doloribus quam mollitia ipsam iste praesentium laborum magni, culpa nisi enim sunt sequi, dolores nemo quas voluptatem aliquid veritatis tempore saepe ducimus suscipit aut libero velit! Architecto ipsum unde expedita earum consequatur omnis neque ullam et nisi! Velit commodi officiis nemo libero molestiae provident minima possimus ipsam blanditiis sint dignissimos, dolorem laudantium illum fuga voluptates, delectus pariatur quibusdam nihil vero perspiciatis veritatis impedit adipisci aperiam minus. Eligendi fugit suscipit sed error pariatur nisi ratione veritatis? Nulla totam ex quo, enim consectetur corporis voluptate earum. Dolores animi cupiditate odit exercitationem dolor enim dolore, doloribus autem suscipit ex pariatur esse perspiciatis fugiat distinctio voluptas sunt obcaecati inventore rerum quam aut perferendis dignissimos natus. Corrupti, suscipit. Provident ab mollitia doloremque dolores maiores suscipit vitae esse unde quis voluptatibus, vel quaerat distinctio voluptates quas qui asperiores perferendis laborum, alias sunt! Dicta tenetur saepe iusto a qui nesciunt commodi aspernatur explicabo inventore repellendus, consequuntur laudantium blanditiis quisquam. Quaerat quia libero, facilis ea eum nobis laudantium unde omnis est ipsam magni praesentium saepe minus quidem corporis id similique iste. Atque quaerat tempora saepe sunt officia? Veniam accusamus laborum minima ullam dolorum modi sed libero blanditiis labore quibusdam soluta, officiis magnam, repellat voluptatibus aliquam quas error laboriosam deleniti id voluptate et maiores? Quae ratione, sint tenetur unde soluta voluptatem, ipsam qui maxime assumenda dolorem quam ut necessitatibus. Commodi sed nihil, ex nulla sint ipsa culpa dolor a, error voluptatem fuga sunt aspernatur, in provident labore illum rem distinctio consequuntur modi consequatur animi dolore hic odio repellendus. Vel, officia. Molestias inventore doloremque minima deserunt quae, nihil porro assumenda pariatur officia enim et corrupti illum laudantium, repellat est eius quia maiores repellendus eaque. Culpa consectetur, neque reprehenderit accusamus harum molestias debitis? Eaque rem perferendis vero reprehenderit laboriosam fugiat voluptate eos quaerat, libero esse dicta tenetur nobis. Adipisci sequi provident soluta dolorem, quam voluptate dignissimos corporis, atque nesciunt tempore quod amet ducimus possimus expedita magni, quos ipsum! Totam est officia veniam corrupti ducimus ab enim a, minus facere provident vitae tenetur odit tempora, deleniti accusantium. Recusandae sit temporibus voluptates nostrum modi praesentium. Nostrum quasi reprehenderit veritatis placeat perspiciatis minus repellendus illo numquam dolor iste, esse qui praesentium beatae quos, eum ipsum eaque vitae quo quidem culpa debitis perferendis error autem! Voluptates cupiditate expedita atque perspiciatis reiciendis veritatis officiis odio rerum deserunt, totam repellat quae eveniet corrupti unde quidem quibusdam ad quos nisi consequatur beatae quisquam maxime voluptatem eaque doloremque. Minima eligendi unde modi consectetur ad, quae impedit et sequi excepturi eos incidunt quidem, accusamus corporis animi labore nobis aut. Vitae dicta rem quia nesciunt laudantium corporis neque dolores id commodi dolore omnis qui repudiandae pariatur blanditiis veniam, illum suscipit. Tenetur laborum vitae animi veritatis sit nobis fugit beatae deserunt non autem molestias quam odit tempora, perspiciatis error magnam, illo aut. Autem soluta nobis doloribus vel corporis suscipit, et aspernatur fugit voluptatibus minus! Assumenda omnis cupiditate quidem quam dolor amet consectetur asperiores officiis ratione labore, magni aut repudiandae laudantium similique quisquam dolorum rerum. Quibusdam et ipsum vel suscipit sit ratione, aliquid nihil nemo maxime assumenda fuga! Iure beatae atque impedit similique commodi at! Neque, incidunt quaerat! Labore ab exercitationem esse eligendi nobis! Cupiditate, fugiat. Eos perspiciatis, mollitia repudiandae consequuntur natus, quibusdam reprehenderit tenetur id ad porro, eaque dolore iste sapiente necessitatibus! Repudiandae, numquam provident illum delectus quo incidunt laudantium itaque! Eveniet nihil vero harum iste eum, architecto unde consequatur delectus nobis distinctio dignissimos perferendis, numquam, neque possimus aut. Dolores non maxime id, omnis repellat itaque nesciunt maiores. Qui obcaecati ipsam voluptates dolores fugit rem est minus animi, itaque similique voluptatum ab quod accusantium! Labore nam vero totam commodi, fuga quia ipsa modi, libero velit blanditiis quibusdam, cum voluptatem ad dolores magni illo debitis maxime aliquam sed nulla quis perspiciatis culpa nostrum fugiat. Eaque tempora quasi tenetur quae quaerat, praesentium voluptates odit, obcaecati iure porro sed ex quas unde quidem ut illo voluptatem odio! Molestiae libero dolores alias magnam sunt repellat, illum doloribus nulla. Quibusdam, optio reprehenderit voluptas dolorem architecto molestiae totam cum distinctio voluptatum! Aperiam quam excepturi perferendis sed tenetur obcaecati. Recusandae libero atque vitae hic quibusdam! Debitis minima distinctio numquam odio soluta. Voluptatem, nostrum quo? Dolorem, alias deserunt. Numquam ut aspernatur, explicabo nesciunt possimus cum iusto obcaecati deleniti, neque optio veniam officia deserunt ratione, quis aperiam rem eius doloribus! Sed cupiditate reprehenderit reiciendis perspiciatis facere fuga commodi debitis voluptatibus minus quaerat atque officiis ut assumenda, pariatur voluptas quis possimus, sunt consequatur eveniet, sit autem sapiente eaque? Magni odio non veritatis optio reprehenderit quos illo quas vel tempora numquam error, voluptate explicabo delectus aspernatur laborum sunt, ipsa minus consectetur ipsam ullam excepturi voluptas impedit rem? Cum nostrum minima illo atque commodi dolorem consequatur, error sint ex odio inventore corporis ullam beatae, voluptates laudantium doloribus! Hic nihil dolores, ab odio ea repellat magnam. Modi sunt sapiente nisi cupiditate quas veniam porro asperiores libero placeat dicta ratione veritatis, eveniet id quam, totam deserunt, pariatur iure voluptatem quaerat reprehenderit? Recusandae quibusdam explicabo magnam asperiores quam. Consectetur, soluta cum quas et porro rem distinctio perferendis deleniti expedita ab fugiat, nam magnam esse dolores vel quasi provident ad sapiente, illum veniam voluptas. Dolorum tenetur itaque deserunt eligendi quaerat deleniti tempore non id quis dicta nobis architecto distinctio harum quod porro, voluptas pariatur sequi, maxime numquam nostrum, consequuntur soluta quas reiciendis aperiam. Ullam rem tempora deleniti eos nemo suscipit necessitatibus natus asperiores provident. Tempore neque sunt qui sapiente, voluptas nesciunt odit itaque nisi libero suscipit doloribus laborum similique reprehenderit nemo excepturi voluptatibus iure aperiam enim provident accusamus doloremque. Ad saepe quia nam a! Ipsam aliquid explicabo eos accusamus voluptatum minus, placeat delectus culpa, repellat, inventore veritatis excepturi magnam earum. Aperiam hic beatae reiciendis, soluta alias labore quisquam possimus voluptatem itaque. Perferendis ea id veritatis quas quae, doloremque corrupti in deserunt. Laboriosam vitae officia, et inventore odio culpa ullam, ea illo voluptatum quos hic ut ad saepe dolorum quo! Debitis voluptates veritatis corporis nisi laboriosam eligendi? Officia, possimus autem! Voluptatibus, dolor? Nihil, excepturi, consequuntur aut veritatis dignissimos tenetur natus fugit explicabo sequi inventore officiis illum doloremque aliquid saepe aperiam. Nesciunt delectus tempore magnam omnis odit ipsum possimus dolorum odio nihil iure distinctio illum, quis quia quaerat mollitia blanditiis consectetur. Voluptatibus natus, dolores explicabo eos, officiis voluptate, quas ad optio deleniti a vero nulla eveniet ab tenetur officia. Vitae facilis, earum, placeat eum quasi magni quas non quos ratione eligendi culpa? Delectus et praesentium non optio, molestias, cupiditate voluptatibus repellat beatae impedit consectetur, quia error a iste amet dolores earum voluptas ad commodi natus? Beatae culpa eaque commodi rerum ipsum, facilis eum nostrum, quisquam enim sed necessitatibus animi! Quidem nisi laboriosam vitae saepe quisquam molestias, repudiandae placeat quos tempora nihil quis assumenda magni nostrum atque. Dignissimos, error cumque rem dolores, distinctio fugit recusandae modi magnam esse ut exercitationem nihil illum reiciendis placeat libero suscipit sit! Temporibus non molestias quia in iste, ab autem cum minima placeat repellat hic optio nostrum veniam laudantium ipsam accusantium dolorem atque, quisquam nihil animi dolores. Quod necessitatibus beatae, dicta esse reiciendis fugit ab magnam consectetur, consequuntur non, est iste impedit nisi quos nesciunt quia inventore sed porro optio possimus quas in deleniti. Non veritatis vitae pariatur cumque ratione deserunt autem? Fugiat necessitatibus quam id, distinctio praesentium esse dolores repudiandae ipsam architecto ab, facere possimus quisquam. Aliquid, tempora, quo fugiat explicabo eos quam magnam quis tenetur sint, quibusdam consectetur eaque laudantium cupiditate dicta illum nisi? Officiis necessitatibus sunt labore sint at corporis earum, aliquam id? Tempore cupiditate placeat, vero iusto praesentium aliquam dicta quod repellat exercitationem saepe, nulla porro? Exercitationem illo esse quae quas debitis quaerat architecto, voluptatum repudiandae quo. Impedit deleniti suscipit dolor sint nihil commodi ab sapiente rem illo obcaecati? Asperiores, libero aliquam natus quos fugiat quisquam ab, hic iusto ratione atque, delectus enim nostrum quae at perspiciatis expedita accusamus facere quo. Omnis impedit velit officia ea odio iste labore asperiores tenetur laboriosam? Quia error dicta laboriosam sed veniam quasi nesciunt vero enim, tenetur eaque rem nobis fuga impedit eligendi tempora sit, aliquam quidem incidunt odio dolore perspiciatis cumque? Sunt dignissimos culpa maxime cupiditate officia laudantium qui quaerat odit temporibus inventore totam eum fugiat exercitationem minima repudiandae delectus reiciendis excepturi nihil, natus rem praesentium. Accusantium iure molestias fuga explicabo minus sequi iste quos modi. Autem, officiis. Nemo, autem? Quasi alias tenetur ipsam debitis, blanditiis delectus tempora deserunt rem eaque adipisci ut quisquam? Veniam voluptates obcaecati asperiores nostrum quae dolores dicta eius quas facere, assumenda cupiditate similique impedit dolorum in a modi harum corporis dolorem temporibus repellat nemo reprehenderit itaque culpa ab? Consequatur dolorem saepe voluptates provident optio aliquam mollitia rerum eos nobis pariatur! Consequatur, optio eius molestiae reiciendis in quod, deserunt atque esse porro voluptas necessitatibus, repudiandae ducimus id ut laborum. Quos dicta iure recusandae, placeat inventore soluta molestias corrupti! Exercitationem, dolorum culpa? Animi eos ab debitis accusamus deserunt voluptatibus, commodi atque expedita tempora consequatur pariatur ea praesentium eaque sit totam placeat adipisci, officiis soluta, voluptate hic tempore eveniet? Dicta, neque obcaecati doloremque quisquam reiciendis soluta itaque earum inventore fugiat ipsam voluptatibus delectus veritatis assumenda? Debitis et aspernatur voluptatibus sit hic, iusto consequatur quos deserunt corrupti, obcaecati, neque quia ad? Eos aspernatur illum dignissimos possimus doloremque deleniti non odit at ullam. Quod neque vero magni minus nemo autem asperiores, ipsa vitae qui debitis dolorum ducimus vel corporis harum laborum sapiente maiores dolorem maxime laboriosam non magnam itaque. Veniam optio, laboriosam fugit velit quis maxime modi quisquam commodi nulla aspernatur ducimus sed totam doloremque quod alias perspiciatis quia quas ullam, minus enim dolores quasi? Perspiciatis rem veniam ab magni iste quis quisquam reprehenderit fugit, tempore dolorum assumenda architecto provident impedit vero quibusdam eligendi at enim fugiat doloremque. Optio, fugiat porro hic sequi non iusto commodi voluptatem aut asperiores voluptatibus magni distinctio enim explicabo, pariatur voluptates repellendus quo quidem nostrum! Eaque sed assumenda alias quibusdam harum, iure debitis ipsam quam labore tempore minus distinctio laboriosam doloremque minima, dolores nisi ea facilis. Recusandae ea odit repellendus voluptates quos nesciunt assumenda consectetur neque. Eos doloribus doloremque commodi cum esse alias accusamus eveniet magni eius tempore? Doloremque sed corrupti, eveniet voluptas nisi, architecto temporibus rem itaque beatae repellendus magnam officiis iure totam ut laborum id aut quas praesentium at maiores aliquam! Quidem dolore quisquam tenetur quibusdam id harum enim accusamus commodi fuga culpa. Enim, aperiam sequi? Natus atque placeat labore totam quia optio esse enim expedita incidunt, maxime nobis, sit nesciunt neque. Praesentium distinctio voluptatem, repellat, repellendus ratione laborum voluptas reiciendis saepe quo molestias aliquam laudantium enim eligendi asperiores velit ipsa, porro neque architecto. Earum dignissimos pariatur praesentium vel, corrupti debitis aspernatur tempore. Magnam error neque numquam ratione sequi illo officiis, architecto quae quas unde placeat delectus dolore harum. Sapiente repellat eum eveniet tempora dolorum rerum fugit perspiciatis iusto nisi! Similique, error vel iusto eligendi excepturi omnis esse itaque tenetur modi aliquam ut, soluta quia provident dicta officiis, explicabo consectetur unde sint dolore deleniti consequuntur non vitae labore? Vel nemo excepturi quibusdam nostrum aspernatur commodi nobis consequuntur velit, doloribus sit laboriosam laudantium, itaque laborum cumque, eaque doloremque dolore nihil maxime explicabo at iste? Beatae voluptatum quasi perspiciatis aliquam, necessitatibus, aspernatur eligendi accusantium vel eos autem officia aut eveniet et. Velit sequi recusandae, alias quia nobis cum fugiat in laudantium ullam ab libero assumenda distinctio culpa facere ex temporibus quaerat, rem, est eveniet nisi. Magnam quaerat neque consequuntur eius at sed non, architecto nesciunt voluptate? Iusto dolores omnis iure adipisci, pariatur ex inventore eaque voluptate deleniti repellat consectetur iste veniam tenetur modi tempore consequatur ipsa optio non quos voluptatum doloribus minus accusantium temporibus sequi. Aspernatur impedit aliquam dicta veritatis harum ex, voluptatum, repudiandae fugiat porro dolorum minima eligendi itaque cumque, consequatur sapiente? Voluptatibus cum velit facilis libero, sed reiciendis nemo facere ullam dolorem, qui temporibus provident? Saepe itaque mollitia dolores quaerat? Minima consequuntur delectus nulla iusto aspernatur in neque ratione vel sit necessitatibus fugit id at quia tempore illo suscipit officia quis, facilis, minus eligendi iste? Officia nihil placeat enim minima saepe sapiente cum odit illo. Dolorum possimus, repellendus tempore velit repellat distinctio architecto odio assumenda, earum quas quae temporibus aperiam. Et, at rerum quisquam autem, sapiente eos quos non magnam laudantium soluta optio? Facere repudiandae itaque quisquam, quam dolore illo amet perferendis, iure placeat ea enim consequuntur ipsa aspernatur, nemo quia laudantium velit! Odit est excepturi assumenda enim reprehenderit, aut officia animi exercitationem quibusdam deserunt eaque in natus modi voluptatum qui saepe cum ab illo. Facilis tempore omnis, ipsa perferendis commodi accusamus maxime voluptatibus pariatur! Autem deserunt tempora explicabo aut modi? Quod provident iste consequuntur amet odio ipsam ratione vel totam, est, velit aliquid ullam, voluptas voluptatem. Laudantium quam commodi, magnam excepturi quos fuga dolore minima quae blanditiis vero tenetur dolor sit harum repellendus voluptate ullam quis. Placeat dignissimos, ipsa odit tenetur et aspernatur beatae corrupti qui, amet corporis optio. Aut reprehenderit quos modi nisi dignissimos id deleniti, error, nemo unde fugit, blanditiis sunt! Eaque neque atque asperiores incidunt perspiciatis dolore? Dolorem modi possimus saepe quos voluptas voluptate. Animi reprehenderit illum repudiandae nisi sunt aspernatur, in sapiente deleniti veritatis dignissimos, iure repellat. Alias quae deserunt doloribus eaque optio commodi voluptas fuga excepturi assumenda unde. Ab eaque excepturi libero, voluptate expedita in possimus quae cumque laudantium, tempora reiciendis accusamus. Excepturi deserunt quos, illum aperiam unde ipsum quidem dolores eveniet dolorem minus dolorum at necessitatibus accusamus non quis consequatur asperiores doloribus, placeat debitis soluta, odit itaque quaerat rerum quod! At fugiat necessitatibus, ea ipsa ratione cumque aspernatur atque totam? Voluptate quae, alias sit qui accusantium odio beatae unde aspernatur quisquam perspiciatis natus nisi voluptatem a aliquid aperiam cum doloremque voluptates, deserunt consectetur. Ut recusandae velit et mollitia praesentium necessitatibus in, deleniti tempora quis dignissimos quibusdam porro placeat repellat commodi aut, magnam soluta at hic nobis quia? Maiores autem voluptates quia iste accusantium odio, hic distinctio animi pariatur, ex dolorem eos, voluptatem deserunt? Optio, id officiis provident rem aliquid cumque ut nostrum in architecto facilis quas laudantium? Quasi blanditiis cumque aut repellat vero explicabo, laboriosam at dignissimos tempora esse? Quis expedita, ipsum odio ab natus repellat eveniet nobis vel commodi? Ea adipisci ullam obcaecati nisi veniam doloribus placeat reprehenderit ipsa consequuntur qui, soluta facilis ratione corporis architecto praesentium iste veritatis amet dolorem laboriosam blanditiis dicta. Sequi porro corporis ex repellat obcaecati hic, blanditiis adipisci autem quisquam perferendis doloremque minus veniam? Quidem rerum tenetur totam omnis facilis, ipsa neque ullam expedita commodi explicabo vel aut error quia iure tempore provident. Asperiores rerum veritatis ipsa repellat? Quos iste atque officiis non, sint ullam ipsum odio, sequi adipisci sapiente qui enim, numquam odit exercitationem eum corporis. Quaerat, repellendus atque, ipsum architecto nobis placeat ex quos libero blanditiis, tempora inventore eaque! Est ad ipsam eaque rerum, sint consequuntur nemo ea perferendis delectus, reiciendis ipsa nostrum. Perspiciatis a repudiandae, numquam fugiat reprehenderit, quidem deserunt sequi explicabo facere, velit veritatis veniam delectus modi natus molestias ea corrupti porro odit aliquam architecto. Minus qui, velit, dolorum earum inventore vitae officia perferendis commodi totam quibusdam officiis sapiente necessitatibus temporibus vero provident cupiditate perspiciatis itaque deleniti corporis? Quae in dignissimos veniam soluta consequatur iure voluptate totam inventore maxime aliquam. Sapiente perferendis numquam quo voluptate laborum, iste reprehenderit aliquam corrupti maxime dolorem eius culpa magni minus provident natus voluptates rem error vero harum, in, vel illum. Nihil doloribus maiores nulla quisquam voluptates dolore magni in odit id accusantium unde quae aspernatur, provident delectus ratione dignissimos ducimus dolor omnis exercitationem praesentium? Consectetur, quaerat sequi quod, cum nihil iure voluptatem libero expedita non aliquam distinctio minus laboriosam officia ducimus cupiditate! Quibusdam doloremque ea deleniti dolores, beatae corrupti obcaecati non. Officia laudantium obcaecati eum culpa, iure ex. Voluptatem ea incidunt quod dignissimos minus enim, nemo, nobis quos eos suscipit pariatur deserunt vel temporibus! Suscipit atque ex, minus aut reiciendis illum quasi doloribus, cupiditate veniam, beatae facere sed ullam? Minima, ipsa? Amet, unde. At alias delectus aspernatur ex non exercitationem dolore perferendis eius earum eaque ut molestiae aperiam neque rerum possimus excepturi hic maiores facere repudiandae, nam doloremque quasi nisi omnis veniam! In facilis vitae veniam autem omnis suscipit, cumque vel ipsam quas dignissimos dolorum placeat id officia recusandae eum dicta quis laudantium. Nulla enim iure molestiae dicta inventore ea totam accusantium, soluta culpa voluptatum numquam ipsam quos! Amet perferendis beatae architecto aspernatur, quod esse ab deserunt in voluptate rerum itaque repudiandae animi ducimus eveniet odio nihil quibusdam, voluptas dolorum. Excepturi maiores modi fugiat odit culpa veniam iusto soluta debitis illo, alias consequatur magnam, optio obcaecati a iure animi harum nemo vitae unde dolores? Iure repellat quod suscipit, inventore dignissimos est ipsam nulla, illum laudantium iste tenetur ad voluptas, aliquam ex a velit fugit enim? Facere adipisci voluptatum perferendis maxime possimus et. Sequi natus cupiditate, nam alias corporis distinctio quia illo voluptates soluta quasi, cumque veniam. Quam ipsa animi incidunt impedit, inventore ea error ut suscipit, tempore modi natus, ad atque provident accusantium necessitatibus accusamus? Aut consequatur quisquam natus in totam, nihil provident. Esse, laudantium laboriosam? Quibusdam excepturi vitae inventore? Cum, nostrum facilis fugit magnam inventore facere repudiandae consequuntur asperiores quibusdam earum delectus tempore molestiae voluptatibus optio fugiat placeat nisi laborum ratione dolorem excepturi eos? Assumenda consectetur earum atque deserunt, sapiente magnam velit saepe qui. Officiis, praesentium fuga amet dolor hic inventore pariatur aspernatur cumque autem commodi error quos ratione incidunt, illum ullam id aperiam dignissimos iste repudiandae placeat laudantium recusandae perspiciatis. Inventore laborum molestias nobis aperiam ut similique placeat debitis quas consectetur quibusdam obcaecati incidunt, nemo consequatur accusamus asperiores. Qui asperiores ipsam voluptates voluptatem itaque quidem voluptate corporis, tempora deleniti sunt dolor minima non! Repellat ex porro est dignissimos ipsam, deserunt a aspernatur praesentium eligendi vitae laboriosam, voluptas, modi consequatur minima non illo. Velit quo nisi rerum aperiam vitae quia cupiditate aut, facere provident tempora ea maxime necessitatibus at cumque qui unde? Mollitia, vero at dolore nisi minima repudiandae eius laborum. Temporibus dolores voluptatibus eligendi nemo magni cum tenetur nesciunt, quam reiciendis velit quod. Optio accusamus dolorem id voluptates minima. Quibusdam et obcaecati neque sit voluptatum vel fugit ipsa laudantium, error qui! Delectus vel aliquam quidem exercitationem porro facere ullam repudiandae error magni quos doloremque nostrum ducimus corporis sit adipisci eveniet cumque animi doloribus, a aspernatur unde molestias. Praesentium, aperiam distinctio, quasi placeat aspernatur pariatur asperiores perferendis doloribus repellat nesciunt harum animi beatae deleniti quas dignissimos architecto, accusamus numquam molestias itaque corporis ex? Fuga consequuntur tempore aperiam praesentium mollitia odit ad aliquid nobis. Nobis mollitia ea quaerat expedita quas vero cupiditate. Magni architecto consectetur placeat nesciunt quae aspernatur enim facilis, incidunt hic deleniti possimus. Fugiat omnis harum natus! Excepturi, perspiciatis? Esse unde voluptas quidem omnis minima perspiciatis quia laborum porro nostrum necessitatibus ipsam adipisci asperiores exercitationem vitae dolorum, nesciunt amet, consequatur hic consequuntur accusantium beatae quod nihil! Reprehenderit quibusdam quae quod id. Suscipit debitis tenetur quibusdam maiores? Dignissimos excepturi nulla enim placeat aut nihil ad facere voluptas, vero possimus porro quaerat iure asperiores dolorem? Culpa laudantium distinctio asperiores modi veniam quibusdam reiciendis error animi, maiores in quisquam, fugit nesciunt ea quo dolore ipsa voluptate eius impedit dolorum a est. Fugiat tenetur, maiores ad laboriosam voluptatem at nobis quod blanditiis quae unde architecto eos, nemo nam ea saepe ipsam vitae quia! Numquam distinctio dolores eius suscipit accusantium tenetur nesciunt deserunt, excepturi nostrum labore libero doloremque perspiciatis, debitis cum non quod maxime obcaecati voluptas quisquam repellat minus expedita, consequatur voluptatem. A optio minima numquam aut quas magnam tenetur soluta, excepturi possimus vero at ipsa maiores obcaecati repudiandae dignissimos voluptatibus facere temporibus est eius quae necessitatibus. Consequuntur cum voluptatem nulla aspernatur saepe ad quod, aperiam eligendi sit eveniet veritatis modi corrupti ea nihil asperiores molestias temporibus dolore quasi enim nam, eum commodi libero? Voluptate, ducimus? Autem provident magnam ullam reprehenderit exercitationem nobis nihil in facilis aut quaerat voluptates, quasi harum nesciunt, quo dolor eum odit quia sunt illum sint quis! Impedit consectetur corrupti alias obcaecati omnis ab repellendus vel explicabo eos ipsam deleniti voluptas, quo enim beatae vitae odio delectus autem quaerat harum esse voluptatem sit numquam. Sunt ipsa error repellendus voluptatem quibusdam inventore, voluptate accusamus necessitatibus cumque quia, quidem maiores magni perferendis sit id deserunt commodi voluptatibus cum ratione iure et? Soluta molestiae magni facilis nihil incidunt dolorem voluptatem? Neque, possimus. Quos esse deserunt temporibus dolorum voluptatibus? Accusantium corrupti repellat totam odio molestias, ullam accusamus quae quos placeat. Nobis aliquam eos explicabo autem labore assumenda magni? Aperiam doloribus quo dolorum, adipisci temporibus minima dolorem optio, animi in tenetur voluptatibus modi quisquam vitae doloremque explicabo perspiciatis quas eaque reprehenderit ratione consectetur sequi ab corrupti ad quae! Excepturi quae illum officia alias odit velit et facere? Maiores amet tempora laboriosam officiis provident, itaque ut nostrum quis voluptates! Aliquid, aspernatur doloribus est unde officia, cumque illo, culpa laudantium repellendus aut sapiente itaque nihil modi distinctio maiores nostrum. Doloribus nostrum quisquam asperiores non molestiae sint expedita dolor, obcaecati laborum quibusdam fugiat ducimus vel, beatae deleniti inventore dicta neque est suscipit!</p>
+    
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
