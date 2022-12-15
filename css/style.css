@@ -123,7 +123,7 @@ p {
     background: url('../img/home/home-bg1.png') no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     margin-bottom: 150px;
 }
 .navi-overlay {
@@ -344,63 +344,122 @@ p {
 }
 .navi-category {
     display: none;
-    position: absolute;
-    bottom: -12%;
-    left: 0;
-    height: 260px;
-    width: 100%;
-}
-.navi-category > div {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.navi-category > div > h5, 
-.fruit-slide > h5,
-.vegetable-slide > h5
-{
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    color: #fff;
-    font: 700 25px 'Cormorant Garamond', serif;
-}
-.navi-fruit,
-.fruit-slide
-{
-    background: #1a5221 url('../img/home/home-bg2.png') no-repeat center;
-    background-size: contain;
-}
-.navi-vegetable,
-.vegetable-slide
-{
-    background: #91B40D url('../img/home/home-bg3.png') no-repeat center;
-    background-size: contain;
-}
-.navi-fruit > img,
-.fruit-slide > img
-{
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-}
-.navi-vegetable > img,
-.vegetable-slide > img
-{
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 .navi-slider {
     display: block;
     position: absolute;
-    bottom: -18%;
-    left: 0;
-    height: 280px;
-    width: 100%;
-    padding: 0 30px;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 170px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides {
+    width: 300%;
+    height: 100%;
+    display: flex;
+}
+.slides > input {
+    display: none;
+}
+.slide {
+    position: relative;
+    width: 33.333333%;
+    transition: 2s;
+}
+.slide.item1 {
+    background: #1a5221 url('../img/home/home-bg2.png') no-repeat center;
+    background-size: contain;
+}
+.slide.item2 {
+    background: #91B40D url('../img/home/home-bg3.png') no-repeat center;
+    background-size: contain;
+}
+.slide.item3 {
+    background: #ffbf00 url('../img/home/home-bg6.png') no-repeat center;
+    background-size: contain;
+}
+.item1 > img,
+.item3 > img
+{
+    position: absolute;
+    bottom: 5px;
+    right:  5px;
+    width: 50%;
+    height: 80%;
+    object-fit: contain;
+}
+.item2 > img {
+    position: absolute;
+    bottom: 5px;
+    right:  5px;
+    width: 70%;
+    height: 50%;
+    object-fit: contain;
+}
+.item1 > h5,
+.item2 > h5,
+.item3 > h5
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}
+.item1 > h6,
+.item2 > h6,
+.item3 > h6
+{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    margin: 0;
+    font-size: 13px;
+    color: #fff;
+}
+.navigation-manual,
+.navigation-auto
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+.manual-btn,
+.navigation-auto > div
+{
+    border: 1px solid #40d3dc;
+    padding: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child),
+.navigation-auto > div:not(:last-child)
+{
+    margin-right: 5px;
+}
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+#radio2:checked ~ .first {
+    margin-left: -33.3%;
+}
+#radio3:checked ~ .first {
+    margin-left: -66.6%;
+}
+#radio1:checked ~ .navigation-auto > .auto-btn1,
+#radio2:checked ~ .navigation-auto > .auto-btn2,
+#radio3:checked ~ .navigation-auto > .auto-btn3,
+.manual-btn:hover
+{
+    background: #40d3dc;
 }
 .navi-search {
     position: fixed;
@@ -1092,6 +1151,70 @@ p {
     .navi-search > form > input[type='button'] {
         width: 25%;
     }
+    .navi-category {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: -50px;
+        left: 0;
+        height: 23vh;
+        width: 100%;
+    }
+    .navi-category > div {
+        flex: 0 0 auto;
+        width: 30%;
+        position: relative;
+        border-radius: 10px;
+    }
+    .navi-category > div > h5 {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        color: #fff;
+        font: 700 20px 'Cormorant Garamond', serif;
+        z-index: 3;
+    }
+    .navi-category > div > h6 {
+        position: absolute;
+        top: 30px;
+        left: 12px;
+        color: #fff;
+        font: 700 12px 'Cormorant Garamond', serif;
+        z-index: 3;
+    }
+    .navi-fruit {
+        background: #1a5221 url('../img/home/home-bg2.png') no-repeat center;
+        background-size: contain;
+    }
+    .navi-vegetable {
+        background: #91B40D url('../img/home/home-bg3.png') no-repeat center;
+        background-size: contain;
+    }
+    .navi-grain {
+        background: #ffbf00 url('../img/home/home-bg6.png') no-repeat center;
+        background-size: contain;
+    }
+    .navi-fruit > img,
+    .navi-grain > img
+    {
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        object-fit: contain;
+        width: 80%;
+        height: 80%;
+    }
+    .navi-vegetable > img {
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        object-fit: contain;
+        width: 90%;
+        height: 60%;
+    }
+    .navi-slider {
+        display: none;
+    }
 
     /* Nav ends */
 
@@ -1153,16 +1276,6 @@ p {
     .navi-media > i {
         font-size: 19px;
         margin-left: 25px;
-    }
-    .navi-category {
-        display: flex;
-        justify-content: space-between;
-    }
-    .navi-category > div {
-        width: 47%;
-    }
-    .navi-slider {
-        display: none;
     }
     
     /* Nav ends */
@@ -1250,15 +1363,15 @@ p {
     .navi-hamb {
         display: none;
     }
-    .navi-category {
-        justify-content: flex-start;
-        bottom: -20%;
+    .navi-category > div > h5 {
+        top: 10px;
+        left: 10px;
+        font-size: 25px;
     }
-    .navi-category > div {
-        width: 33%;
-    }
-    .navi-fruit {
-        margin: 0 50px 0 12px;
+    .navi-category > div > h6 {
+        top: 50px;
+        left: 12px;
+        font-size: 16px;
     }
     .navi-search > form {
         width: 840px;

@@ -457,19 +457,16 @@ window.addEventListener('resize', _ => {
     }
 })
 
-// Home bolmesindeki slider'in ise salinmasi
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-});
+// Nav bolmesindeki slider'in ise salinmasi
+let counter = 1
+
+setInterval(_ => {
+    document.getElementById('radio' + counter).checked = true
+    counter++
+    if (counter == 4) {
+        counter = 1
+    }
+},5000)
 
 // Cumlede eyni sozden nece dene varin tapilmasi alqoritmasi
 const text  = 'Nahid kungfu sicandir beli kungfu'

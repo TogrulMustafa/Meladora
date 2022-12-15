@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Meladora</title>
@@ -87,25 +86,53 @@
             <div class="navi-category">
                 <div class="navi-fruit">
                     <h5 class="change-lang">Meyvələr</h5>
+                    <h6 class="change-lang">Daha çox...</h6>
                     <img src="./img/home/home-bg4.png">
                 </div>
                 <div class="navi-vegetable">
                     <h5 class="change-lang">Tərəvəzlər</h5>
+                    <h6 class="change-lang">Daha çox...</h6>
                     <img src="./img/home/home-bg5.png">
                 </div>
+                <div class="navi-grain">
+                    <h5 class="change-lang">Taxıl</h5>
+                    <h6 class="change-lang">Daha çox...</h6>
+                    <img src="./img/home/home-bg7.png">
+                </div>
             </div>
-            <div class="swiper mySwiper navi-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide fruit-slide">
+            <div class="navi-slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+        
+                    <div class="slide first item1">
                         <h5 class="change-lang">Meyvələr</h5>
+                        <h6 class="change-lang">Daha çox...</h6>
                         <img src="./img/home/home-bg4.png">
                     </div>
-                    <div class="swiper-slide vegetable-slide">
+                    <div class="slide item2">
                         <h5 class="change-lang">Tərəvəzlər</h5>
+                        <h6 class="change-lang">Daha çox...</h6>
                         <img src="./img/home/home-bg5.png">
                     </div>
+                    <div class="slide item3">
+                        <h5 class="change-lang">Taxıl</h5>
+                        <h6 class="change-lang">Daha çox...</h6>
+                        <img src="./img/home/home-bg7.png">
+                    </div>
+        
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="navigation-manual ">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
             </div>
         </div>
         <div class="navi-fixed">
@@ -599,7 +626,6 @@
 
 
     <script src="./js/data.js"></script>
-    <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
