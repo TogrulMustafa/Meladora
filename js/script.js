@@ -21,11 +21,6 @@ window.addEventListener('load', _ => {
         document.body.firstChild.remove()
     })
 })
-/*   
-    Bu loading kodunu isletmek isteyiremse HTML'deki entry class'i xaric diger butun classlar entry2 classinin icinde olmalidir.
-    CSS terefde ise entry2'ye ilk once display: 'none' vermeliyem daha sonra burda yani script faylinde entry2'ye active classini
-    elave etmeliyem.
-*/
 
 // Bezen ele olur ki HTML strukturunu HTML-de yox JS(innerHTML) ile yaziriq ve bu zaman null errorunu aliriq.Bu prblemi hell etmek ucun asagidaki bu koda baxaraq istifade etmeye calis
 // product-hidden bolmesinin acilmasi
