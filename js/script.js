@@ -9,6 +9,23 @@ const naviHamb = document.querySelectorAll('.navi-hamb')
 const scrollTopBtn = document.querySelector('.scrollToTop-btn')
 
 
+// Sehife yuklenmemisden once loading animasiyasinin gorunmesi
+window.addEventListener('load', _ => {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+    setTimeout(_ => {
+        document.querySelector('.loader').classList.add('active')
+        document.querySelector('.content').classList.add('active')
+    },2000)
+    document.querySelector('.loader').addEventListener('transitionend', _ => {
+        document.body.firstChild.remove()
+    })
+})
+/*   
+    Bu loading kodunu isletmek isteyiremse HTML'deki entry class'i xaric diger butun classlar entry2 classinin icinde olmalidir.
+    CSS terefde ise entry2'ye ilk once display: 'none' vermeliyem daha sonra burda yani script faylinde entry2'ye active classini
+    elave etmeliyem.
+*/
 
 // Bezen ele olur ki HTML strukturunu HTML-de yox JS(innerHTML) ile yaziriq ve bu zaman null errorunu aliriq.Bu prblemi hell etmek ucun asagidaki bu koda baxaraq istifade etmeye calis
 // product-hidden bolmesinin acilmasi
@@ -374,16 +391,6 @@ Array.from(document.querySelectorAll('.product-type > span')).forEach(item => {
             e.target.classList.add('active')
         }
     })
-})
-
-// Sehife yuklenib bitdikden sonra animasiyanin ortaya cixmasi ve daha sonra yigisdirilmasi
-window.addEventListener('DOMContentLoaded', _ => {
-    document.body.scrollTop = 0
-    document.documentElement.scrollTop = 0
-    document.querySelector('.entry').classList.add('active')
-    setTimeout(_ => {
-        document.querySelector('.entry').classList.remove('active')
-    },2000)
 })
 
 // Scroll Button'un ve sabit nav bolmesinin gorunmesi
